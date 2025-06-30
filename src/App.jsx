@@ -7,9 +7,9 @@ import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import ChatbotComponents from "./components/Chatbot/ChatbotComponents"
 // import ContactPage from "./pages/ContactPage";
 //import AboutPages from "./pages/AboutPage";
-import CoursesPage from "./pages/CoursesPage";
-import AdmissionsPage from "./pages/AdmissionsPage";
-import NotFoundPage from "./pages/NotFoundPage";
+//import CoursesPage from "./pages/CoursesPage";
+//import AdmissionsPage from "./pages/AdmissionsPage";
+//import NotFoundPage from "./pages/NotFoundPage";
 import HomePage from "./pages/HomePage";
 
 const App =()=> {
