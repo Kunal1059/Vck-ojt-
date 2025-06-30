@@ -10,7 +10,7 @@ import ChatbotComponents from "./components/Chatbot/ChatbotComponents"
 //import CoursesPage from "./pages/CoursesPage";
 //import AdmissionsPage from "./pages/AdmissionsPage";
 //import NotFoundPage from "./pages/NotFoundPage";
-import HomePage from "./pages/HomePage";
+//import HomePage from "./pages/HomePage";
 
 const App =()=> {
   const [showPopup, setShowPopup] = useState(true);
@@ -35,7 +35,7 @@ const App =()=> {
         <Header />
         <div className="content">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+           {/* <Route path="/" element={<HomePage />} /> */}
             {/* <Route path="/contact" element={<ContactPage />} /> */}
            { /*<Route path="/about" element={<AboutPages/>} />*/}
            {/* <Route path="/courses" element={<CoursesPage />} />*/}
