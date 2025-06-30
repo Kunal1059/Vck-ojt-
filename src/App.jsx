@@ -6,7 +6,7 @@ import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import ChatbotComponents from "./components/Chatbot/ChatbotComponents"
 // import ContactPage from "./pages/ContactPage";
-import AboutPages from "./pages/AboutPage";
+//import AboutPages from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import AdmissionsPage from "./pages/AdmissionsPage";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -37,10 +37,10 @@ const App =()=> {
           <Routes>
             <Route path="/" element={<HomePage />} />
             {/* <Route path="/contact" element={<ContactPage />} /> */}
-            <Route path="/about" element={<AboutPages/>} />
-            <Route path="/courses" element={<CoursesPage />} />
-            <Route path="/admissions" element={<AdmissionsPage />} />
-            <Route path="*" element={<NotFoundPage />} />
+           { /*<Route path="/about" element={<AboutPages/>} />*/}
+           {/* <Route path="/courses" element={<CoursesPage />} />*/}
+           {/* <Route path="/admissions" element={<AdmissionsPage />} />*/}
+           {/* <Route path="*" element={<NotFoundPage />} />*/}
           </Routes>
         </div>
         <Footer />
