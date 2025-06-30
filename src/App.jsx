@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import HomePage from "./pages/HomePage";
 import Header from "./components/Headers/Header";
 import Footer from "./components/Footer/Footer";
 import ContactPage from "./pages/ContactPage";
@@ -11,6 +10,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import ChatbotComponents from "./components/Chatbot/ChatbotComponents"
+import HomePage from "./pages/HomePage";
 
 const App =()=> {
   const [showPopup, setShowPopup] = useState(true);
