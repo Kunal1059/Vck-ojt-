@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-const AdmissionsPage = () => {
+const Admission = () => {
   return (
     <div className="page-container" style={{ overflow: "auto" }}>
       <h1>Admissions at Vivekanand College</h1>
@@ -76,4 +76,4 @@ const AdmissionsPage = () => {
     </div>
   );
 };
-export default AdmissionsPage;
+export default Admission;

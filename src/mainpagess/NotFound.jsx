@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-const notfound = () => {
+const NotFound = () => {
   return (
     <div
       className="page-container"
@@ -29,4 +29,4 @@ const notfound = () => {
     </div>
   );
 };
-export default notfound;
+export default NotFound;

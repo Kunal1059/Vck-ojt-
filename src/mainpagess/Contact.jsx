@@ -1,4 +1,4 @@
-const contact = () => {
+const Contact = () => {
   return (
     <div className="page-container" style={{overflow:"auto"}}>
       <h1>Contact Us</h1>
@@ -41,4 +41,4 @@ const contact = () => {
     </div>
   );
 }
-export default contact;
+export default Contact;

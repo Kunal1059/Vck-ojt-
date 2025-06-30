@@ -4,13 +4,15 @@ import Footer from "./components/Footer/Footer";
 import "./Styles/pages.css";
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
-import ChatbotComponents from "./components/Chatbot/ChatbotComponents"
-// import ContactPage from "./pages/ContactPage";
-//import AboutPages from "./pages/AboutPage";
-//import CoursesPage from "./pages/CoursesPage";
-//import AdmissionsPage from "./pages/AdmissionsPage";
-//import NotFoundPage from "./pages/NotFoundPage";
-//import HomePage from "./pages/HomePage";
+import ChatbotComponents from "./components/Chatbot/ChatbotComponents";
+import Admission from "./mainpagess/Admission";
+import NotFound from "./mainpagess/NotFound";
+import Courses from "./mainpagess/Courses";
+import About from "./mainpagess/About";
+import Contact from "./mainpagess/Contact";
+import Home from "./mainpagess/Home";
+
+
 
 const App =()=> {
   const [showPopup, setShowPopup] = useState(true);
@@ -35,12 +37,12 @@ const App =()=> {
         <Header />
         <div className="content">
           <Routes>
-           {/* <Route path="/" element={<HomePage />} /> */}
-            {/* <Route path="/contact" element={<ContactPage />} /> */}
-           { /*<Route path="/about" element={<AboutPages/>} />*/}
-           {/* <Route path="/courses" element={<CoursesPage />} />*/}
-           {/* <Route path="/admissions" element={<AdmissionsPage />} />*/}
-           {/* <Route path="*" element={<NotFoundPage />} />*/}
+           <Route path="/" element={<Home />} /> 
+             <Route path="/contact" element={< Contact />} /> 
+            <Route path="/about" element={<About/>} />
+            <Route path="/courses" element={<Courses />} />
+            <Route path="/admissions" element={<Admission />} />
+             <Route path="*" element={<NotFound/>} />
           </Routes>
         </div>
         <Footer />

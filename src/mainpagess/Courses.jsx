@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-const courses = () => {
+const Courses = () => {
   return (
     <div className="page-container" style={{overflow:"auto"}}>
       <h1>Our Academic Programs</h1>
@@ -108,4 +108,4 @@ const courses = () => {
     </div>
   );
 }
-export default courses;
+export default Courses;
