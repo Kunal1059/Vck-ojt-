@@ -6,7 +6,7 @@ const CoursesPage = () => {
       <p>
         Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.
       </p>
-      {/* New Video Section */}
+    
       <h2>Discover Campus Life</h2>
       <div className="video-container">
         <video controls width="100%" height="auto" className="course-video">
@@ -41,7 +41,7 @@ const CoursesPage = () => {
             <li>Psychology (3 years)</li>
           </ul>
         </li>
-        {/* Add more UG courses as applicable */}
+    
       </ul>
       <h2>Postgraduate Programs (PG)</h2>
       <ul>
@@ -58,11 +58,11 @@ const CoursesPage = () => {
         <li>
           <b>Master of Arts (M.A.)</b> (2 years)
         </li>
-        {/* Add more PG courses as applicable */}
+    
       </ul>
-      {/* New Detailed Courses Table */}
+    
       <h2>Program Details & Fee Structure (Annual)</h2>
-      <table className="admissions-table course-details-table"> {/* Reusing admissions-table, adding course-details-table for specific styles */}
+      <table className="admissions-table course-details-table"> 
         <thead>
           <tr>
             <th>Program Type</th>
@@ -94,7 +94,7 @@ const CoursesPage = () => {
             <td>₹ 95,000</td>
             <td>B.Sc. IT/CS (50%)</td>
           </tr>
-          {/* Add more rows for other programs as needed */}
+        
         </tbody>
       </table>
       <h2>Specialized & Vocational Courses</h2>
