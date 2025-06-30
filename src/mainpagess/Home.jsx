@@ -54,10 +54,10 @@ const Home = () => {
       <h2>Campus Life & Facilities</h2>
       <div className="image-gallery">
         <img
-          src="\public\image\campus-life.jpg"
+          src="\image\campus-life.jpg"
           alt="Students studying in library"
         />
-        <img src="\public\image\students-studying.jpeg" alt="Students on campus ground" />
+        <img src="\image\students-studying.jpeg" alt="Students on campus ground" />
       </div>
       <p>
         Explore our vibrant campus and state-of-the-art facilities designed to
