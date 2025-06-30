@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./components/Headers/Header";
 import Footer from "./components/Footer/Footer";
-import "./styles/pages.css";
+import "./Styles/pages.css";
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import ChatbotComponents from "./components/Chatbot/ChatbotComponents"
