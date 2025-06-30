@@ -4,7 +4,7 @@ const Home = () => {
     <div className="page-container" style={{ overflow: "auto" }}>
       <div className="hero-section">
         <img
-          src="\public\image\college-banner.png"
+          src="\image\college-banner.png"
           alt="Vivekanand College Campus"
           className="hero-banner-image"
         />
